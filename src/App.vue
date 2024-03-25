@@ -10,7 +10,7 @@ export default {
   setup () {
     function get(e){
       console.log(e);
-axios.post('http://sollio.freehostia.com/freap/',e).then((res)=>{
+axios.post('https://sollio.freehostia.com/freap/',e).then((res)=>{
 console.log(res.data);
 }).catch((er)=>{
 console.log(er);
